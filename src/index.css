@@ -1,0 +1,35 @@
+*,
+:after,
+:before {
+  box-sizing: border-box;
+  margin: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1a25;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3e3e51;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #464658;
+}
